@@ -13,7 +13,7 @@ while( !ifs.eof() ) {
 string location;
 double t1,t2,t3,t4;
 double media;
-ifs >> location >> t1>>t2>>t3>>t4; // also >> : S×T →S
+ifs >> location >> t1>>t2>>t3>>t4;
 media=(t1+t2+t3+t4)/4.0;
 
 cout << "La temperatura media a " << location << " e' " << media << "\n";
